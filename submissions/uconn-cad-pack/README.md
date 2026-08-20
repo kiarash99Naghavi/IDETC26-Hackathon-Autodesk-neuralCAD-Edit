@@ -14,9 +14,9 @@ Computed with the benchmark's own metric code (`src/utils/evals_diff.py` and `sr
 
 | Metric | Ours | Best published model baseline |
 |---|---|---|
-| Surface Chamfer similarity | **0.978** | 0.97 (gpt-5.2) |
+| Surface Chamfer similarity | **0.977** | 0.97 (gpt-5.2) |
 | Volumetric F1 | **0.910** | 0.85 (gpt-5.2) |
-| Volumetric Difference F1 (most important) | **0.369** | 0.18 (gpt-5.2) |
+| Volumetric Difference F1 (most important) | **0.390** | 0.18 (gpt-5.2) |
 
 Mean cost per edit: $0.86. All 48 tasks produced valid edited geometry.
 
@@ -79,7 +79,7 @@ The five request_ids the organisers named for qualitative evaluation, shown as i
 | 3 | Lever extension (`B7A2N74ZJBF9MZHU_1770174133.012106`) | easy | 0.985 | 1.000 | 0.797 |
 | 4 | Third rotor blade (`F332D3FXML85WLR2_1769607142.566352`) | hard | 0.992 | 0.936 | 0.783 |
 | 5 | Hole and grooves (`ZK22J6VYRKQ2RTFD_1758874422.1403751`) | hard | 0.987 | 0.986 | 0.073 |
-| | **Mean over the five** | | **0.988** | **0.978** | **0.473** |
+| | **Mean over the five** | | **0.988** | **0.977** | **0.473** |
 
 ## Fire the dashboard
 
